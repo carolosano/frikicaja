@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla Visible - Belluccia 3</title>
+
+    <!-- Tipografía desde Google Fonts -->
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- Framework CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR: Menú de navegación fijo superior -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <!-- Logo o nombre del sitio -->
+    <a class="navbar-brand" href="#">Frikicaja</a>
+    <!-- Botón para mostrar menú en mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Ítems del menú -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Detalle</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">FAQs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Geekswap</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- /NAVBAR -->
+
+<!-- HERO: Sección de portada con llamado a la acción -->
+<section class="section-spacing container d-flex align-items-center justify-content-between" style="min-height: 100vh; padding-top: 100px;">
+  <div class="row align-items-center">
+    <!-- Texto principal -->
+    <div class="col-lg-6">
+      <h1 class="h1-custom">Friki Caja</h1>
+      <p class="p-custom">Accedé <b style="color: #FF0C2C;">cada mes</b> a una cápsula, cargada con figuras exclusivas, cómics y merch licenciado, hasta tu núcleo de vivienda.</p>
+      <div class="d-flex gap-3 mt-4">
+        <a href="#" class="btn btn-dark" style="border: #121212;">Suscribirme ahora</a>
+         <!-- <a href="#" class="btn btn-outline-dark">Acción Secundaria</a> -->
+      </div>
+    </div>
+    <!-- Imagen destacada -->
+    <div class="col-lg-6 text-center">
+      <img src="https://imageplaceholder.net/500x500" class="img-fluid img-rounded" alt="Imagen Hero">
+    </div>
+  </div>
+</section>
+<!-- /HERO -->
+
+<!-- PATROCINADORES]: Sección sobre patrocinadores :) -->
+  <section class="" style="width: 100%; text-align: center; display: flex;">
+    <div class="align-items-center" style="width: 100%; text-align: center;">
+      <img src="/media/patrocinadores.png" style="max-width: 100%; height: auto;">
+    </div>
+  </section>
+<!-- /PATROCINADORES -->
+
+<!--  COMO FUNCIONA: Grid clásico de 4 columnas -->
+<section class="section-spacing container py-8 text-center" style="background-image: url('/media/fondo01.png'); background-size: cover; background-position: center; background-repeat: no-repeat; max-width: 100%; height: auto;">
+  <h2 class="h1-custom" style="text-align: start; padding-left: 5%;">CÓMO <hr class="mb-0 mr-0" style="color: #121212;">FUNCIONA?</h2>
+  <div class="row g-4 mb-5 m-4">
+    <div class="col-md-3"><img src="/media/box-funciona-01.png" class="img-fluid img-rounded rounded" alt="Imagen 1"></div>
+    <div class="col-md-3"><img src="/media/box-funciona-02.png" class="img-fluid img-rounded rounded" alt="Imagen 2"></div>
+    <div class="col-md-3"><img src="/media/box-funciona-03.png" class="img-fluid img-rounded rounded" alt="Imagen 3"></div>
+    <div class="col-md-3"><img src="/media/box-funciona-04.png" class="img-fluid img-rounded rounded" alt="Imagen 3"></div>
+  </div>
+</section>
+
+<!-- POR QUE ELEGIRNOS? : Dos columnas iguales con texto e imagen -->
+<section class="section-spacing container"  style=" background-image: url('/media/fondo02.png'); background-size: cover; background-position: center; background-repeat: no-repeat; max-width: 100%; aspect-ratio: 16 / 9; display: flex; align-items: center; justify-content: center; text-align: center;">
+  <div class="container" style="display: flex; flex-wrap: wrap; align-items: center;">
+    
+    <!-- Imagen a la izquierda -->
+    <div style="flex: 1 1 50%; text-align: start;">
+      <img src="/media/foto01.png" alt="Persona con caja" style="max-width: 100%; box-shadow: 10px 10px 20px rgba(0,0,0,0.2); border-radius: 10px;">
+    </div>
+
+    <!-- Texto a la derecha -->
+    <div style="flex: 1 1 50%; padding: 2rem;">
+      <h2 style="font-weight: 700; font-size: 3rem; color: #121212; margin-bottom: 2rem; text-align: start;">
+        ¿POR QUÉ ELEGIRNOS?
+      </h2>
+
+      <!-- Ítem 01 -->
+      <div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 2rem; text-align: start;">
+        <div style="background-color: #121212; color: white; font-weight: bold; padding: 0.5rem 1rem; border-radius: 0px; font-family: 'Orbitron', sans-serif;">01<b style="color: #121212;">1</b></div>
+
+        <div>
+          <p style="font-weight: 700; margin: 0; color: #121212;">Tu experiencia empieza desde que recibís la caja.</p>
+          <p style="margin: 0; color: #121212;">El packaging está pensado como una pieza coleccionable más.</p>
+        </div>
+      </div>
+
+      <!-- Ítem 02 -->
+      <div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 2rem; text-align: start;">
+        <div style="background-color: #121212; color: white; font-weight: bold; padding: 0.5rem 1rem; border-radius: 0px; font-family: 'Orbitron', sans-serif;">02</div>
+        <div>
+          <p style="font-weight: 700; margin: 0; color: #121212;">Selección temática con criterio de colección</p>
+          <p style="margin: 0; color: #121212;">Cada edición está pensada para que sume valor real a tu colección.</p>
+        </div>
+      </div>
+
+      <!-- Ítem 03 -->
+      <div style="display: flex; gap: 1rem; align-items: flex-start; text-align: start;">
+        <div style="background-color: #121212; color: white; font-weight: bold; padding: 0.5rem 1rem; border-radius: 0px; font-family: 'Orbitron', sans-serif;">03</div>
+        <div>
+          <p style="font-weight: 700; margin: 0; color: #121212;">Experiencia exclusiva sin complicaciones</p>
+          <p style="margin: 0; color: #121212;">Nos encargamos de todo y te lo entregamos directo.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="section-spacing container"  style=" background-image: url('/media/fondo03.png'); background-size: cover; background-position: center; background-repeat: no-repeat; max-width: 100%; aspect-ratio: 16 / 9; display: flex; align-items: center; justify-content: center; text-align: center;">
+  <div class="row align-items-center">
+    <!-- Columna de texto -->
+    <div class="col-lg-6" style="text-align: left; margin-left: 6%;">
+      <h2 class="display-6" class="h2-custom" style="color: #121212; font-weight: 700;">Otra disposición</h2>
+      <p class="lead-custom" style="color: #121212;">Friki Caja es una suscripción mensual que te lleva artículos de la comunidad friki a la puerta de tu casa. Todos los meses recibís una cápsula con figuras exclusivas, cómics de edición variante y merch licenciado.</p>
+      <a href="#" class="btn btn-dark mt-3" style="justify-content: left;">10% de dto. en tiendas exlusivas</a>
+      <a href="#" class="btn btn-dark mt-3" style="justify-content: left;">Canje de  piezas repetidas</a>
+      <a href="#" class="btn btn-dark mt-3" style="justify-content: left;">Licencias rotativas según estrenos</a>
+    </div>
+    <!-- Columna de imagen -->
+    <div class="col-lg-5 text-center mt-4 mt-lg-0">
+      <img src="/media/foto02.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
+    </div>
+  </div>
+</section>
+<!-- /POR QUE ELEGIRNOS -->
+
+<!--  PLANES: Grid clásico de 3 columnas -->
+<section class="section-spacing container py-8 text-center"
+  style="background-image: url('/media/fondo04.png');
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         max-width: 100%;
+         height: auto;">
+
+  <h2 class="h1-custom">PLANES</h2>
+  <p class="mb-5">Activá tu plan mensual y comenzá a recolectar las FrikiCajas de este multiverso expandido.</p>
+
+  <div class="row g-4 m-5 p-5">
+
+    <!-- Plan NEO -->
+    <div class="col-md-4">
+      <img src="/media/plan-neo.png" class="img-fluid img-rounded rounded" alt="Imagen 1">
+      <a href="#" class="btn btn-dark mt-4" style="padding: 0.75rem 2rem; width: 100%; max-width: 260px; border: #121212;">
+        Suscribirme ahora
+      </a>
+    </div>
+
+    <!-- Plan BETA -->
+    <div class="col-md-4">
+      <img src="/media/plan-beta.png" class="img-fluid img-rounded rounded" alt="Imagen 2">
+      <a href="#" class="btn btn-dark mt-4" style="padding: 0.75rem 2rem; width: 100%; max-width: 260px; border: #121212;">
+        Suscribirme ahora
+      </a>
+    </div>
+
+    <!-- Plan ZERO -->
+    <div class="col-md-4">
+      <img src="/media/plan-zero.png" class="img-fluid img-rounded rounded" alt="Imagen 3">
+      <a href="#" class="btn btn-dark mt-4" style="padding: 0.75rem 2rem; width: 100%; max-width: 260px; border: #121212;">
+        Suscribirme ahora
+      </a>
+    </div>
+
+  </div>
+</section>
+<!-- /PLANES -->
+
+<!--  COMO FUNCIONA: Grid clásico de 4 columnas -->
+<section
+  style="
+    background-image: url('/media/fondo05.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    box-sizing: border-box;">
+  
+  <!-- Título -->
+  <h2 class="h1-custom" style="text-align: start; width: 100%; max-width: 1140px; padding-top: 6%; color: #121212; font-weight: 700;">
+    QUÉ CONTIENE LA
+    <hr class="mb-0 mr-0" style="color: #d1d1d1;">
+    FRIKI CAJA?
+  </h2>
+
+  <!-- Contenido limitado a un ancho -->
+  <div class="row g-4 mb-5 m-4" style="width: 100%; max-width: 1140px;">
+    <div class="col-md-3"><img src="/media/box-quehay-01.png" class="img-fluid img-rounded rounded" alt="Imagen 1"></div>
+    <div class="col-md-3"><img src="/media/box-quehay-02.png" class="img-fluid img-rounded rounded" alt="Imagen 2"></div>
+    <div class="col-md-3"><img src="/media/box-quehay-03.png" class="img-fluid img-rounded rounded" alt="Imagen 3"></div>
+    <div class="col-md-3"><img src="/media/box-quehay-04.png" class="img-fluid img-rounded rounded" alt="Imagen 4"></div>
+  </div>
+</section>
+<!-- /COMO FUNCIONA -->
+
+<!-- TARJETA QUANTUM: Imagen izquierda, texto derecha -->
+<section style="background-color: #FF0C2C; padding: 4rem 0; width: 100%;">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Columna de imagen -->
+      <div class="col-lg-6 text-center mb-4 mb-lg-0">
+        <img src="/media/foto03.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
+      </div>
+      <!-- Columna de texto -->
+      <div class="col-lg-6">
+        <h2 class="display-5 h2-custom" style="font-weight: 700;">
+          TARJETA
+          <hr class="mb-0 mr-0" style="color: #FF0C2C;">
+          QUANTUM KEY
+        </h2>
+        <p>
+          Con la compra de cualquiera de nuestras FrikiCajas recibís tu Tarjeta Quantum Key.
+          <hr class="mb-0 mr-0" style="color: #FF0C2C; font-size: 1rem;">
+          Una llave digital para expandir tu colección sin límites y conectar con otros exploradores del multiverso.
+          <hr class="mb-0 mr-0" style="color: #FF0C2C;">
+          Te permite acceso a nuestro Marketplace interno y activa el programa GeekSwap, donde podés canjear figuras, cómics o pines repetidos con otros miembros de la comunidad.
+        </p>
+        <a href="#" class="btn btn-dark mt-3" style="background-color: #ffffff; color: #121212;">Acceder</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS: Opiniones de clientes -->
+<section class="section-spacing container text-center">
+  <h2 class="h2-custom" style="margin-bottom: 50px;">RESEÑAS DE NUESTROS CLIENTES</h2>
+  <div class="row">
+    <!-- Cada columna es un testimonio -->
+    <div class="col-md-4">
+      <blockquote class="blockquote p-4" style="background-color: #121212;">
+        "La caja superó mis expectativas. La figura es increíble y el pin tiene un nivel de detalle zarpado.”
+        <footer class="blockquote-footer mt-3" style="background-color: #121212;">Micaela Rivotril</footer>
+      </blockquote>
+    </div>
+    <!-- Cada columna es un testimonio -->
+    <div class="col-md-4">
+      <blockquote class="blockquote p-4" style="background-color: #121212;">
+        "¡Tremenda experiencia! Todo llegó perfecto, me encató y el diseño de la caja es un 10”
+        <footer class="blockquote-footer mt-3" style="background-color: #121212;">Jorge Insburg</footer>
+      </blockquote>
+    </div>
+    <!-- Cada columna es un testimonio -->
+    <div class="col-md-4">
+      <blockquote class="blockquote p-4" style="background-color: #121212;">
+        "Es mi primera vez probando una suscripción y la verdad me encantó. Recomendadísimo."
+        <footer class="blockquote-footer mt-3" style="background-color: #121212;">Damian Bostero</footer>
+      </blockquote>
+    </div>
+  </div>
+  <a href="#" class="btn btn-dark" style="border: #121212; margin-top: 30px;">Ver más</a>
+</section>
+<!-- /TESTIMONIALS -->
+
+<section class="section-spacing container py-5 text-center">
+  <h2 class="mb-4" class="h2-custom">GRACIAS POR CONFIAR EN NOSOTROS</h2>
+  <p class="mb-5">Valoramos profundamente tu confianza, por eso queremos compartirte estas fotos de nuestros clientes satisfechos con sus compras</p>
+  <div class="row g-4">
+    <div class="col-md-4"><img src="/media/galeria01.png" class="img-fluid img-rounded rounded" alt="Imagen 1"></div>
+    <div class="col-md-4"><img src="/media/galeria02.png" class="img-fluid img-rounded rounded" alt="Imagen 2"></div>
+    <div class="col-md-4"><img src="/media/galeria03.png" class="img-fluid img-rounded rounded" alt="Imagen 3"></div>
+  </div>
+  <hr style="color: #121212;">
+  <div class="row g-4">
+    <div class="col-md-4"><img src="/media/galeria04.png" class="img-fluid img-rounded rounded" alt="Imagen 1"></div>
+    <div class="col-md-4"><img src="/media/galeria05.png" class="img-fluid img-rounded rounded" alt="Imagen 2"></div>
+    <div class="col-md-4"><img src="/media/galeria06.png" class="img-fluid img-rounded rounded" alt="Imagen 3"></div>
+  </div>
+  <a href="#" class="btn btn-dark" style="border: #121212; margin-top: 30px;">Ver más</a>
+</section>
+
+<!-- FAQS: Preguntas frecuentes -->
+<section class="section-spacing container text-center">
+  <h2 class="h2-custom">PREGUNTAS FRECUENTES</h2>
+  <p class="p-custom">Respuestas a dudas comunes.</p>
+  <div class="accordion mt-5" id="faqAccordion">
+    <!-- Ítem de pregunta -->
+    <div class="accordion-item" style="background-color: #121212; color: #ffffff; text-align: left;">
+      <p class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" style="background-color: #121212; color: #FF0C2C; font-weight: 600;">
+          ¿Qué contiene cada caja de suscripción?
+        </button>
+      </p>
+      <div id="collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          Cada FrikiCaja incluye una selección exclusiva de artículos coleccionables como figuras, pines, cómics, stickers, y algún objeto sorpresa relacionado con la temática del mes. ¡Siempre hay algo único para expandir tu universo geek!
+        </div>
+      </div>
+    </div>
+    <!-- Ítem de pregunta -->
+    <div class="accordion-item">
+      <p class="accordion-header" id="headingTwo" >
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" style="background-color: #121212; color: #FF0C2C; font-weight: 600;">
+          ¿Puedo elegir qué productos recibir?
+        </button>
+      </p>
+      <div id="collapseTwo" class="accordion-collapse collapse show" style="background-color: #121212; color: #ffffff; text-align: left;">
+        <div class="accordion-body">
+          Sí. En los plane Pulse y Neón podés seleccionar tus preferencias. En el plan Zero, los productos son sorpresa.
+        </div>
+      </div>
+    </div>
+     <!-- Ítem de pregunta -->
+    <div class="accordion-item">
+      <p class="accordion-header" id="headingTwo" >
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" style="background-color: #121212; color: #FF0C2C; font-weight: 600;">
+           ¿Cada mes la caja tiene una temática diferente?
+        </button>
+      </p>
+      <div id="collapseTwo" class="accordion-collapse collapse show" style="background-color: #121212; color: #ffffff; text-align: left;">
+        <div class="accordion-body">
+          ¡Sí! Cada mes exploramos un nuevo universo. Nuestras cajas tienen temáticas especiales que van desde clásicos del cine y el anime hasta videojuegos, ciencia ficción y más. ¡Nunca sabés qué multiverso vas a recibir!
+        </div>
+      </div>
+    </div>
+     <!-- Ítem de pregunta -->
+    <div class="accordion-item">
+      <p class="accordion-header" id="headingTwo" >
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" style="background-color: #121212; color: #FF0C2C; font-weight: 600;">
+          ¿Cuándo se envían las cajas?
+        </button>
+      </p>
+      <div id="collapseTwo" class="accordion-collapse collapse show" style="background-color: #121212; color: #ffffff; text-align: left;">
+        <div class="accordion-body">
+          Las cajas se envían entre los días 10 y 15 de cada mes. Te notificamos por mail cuando tu caja esté en camino, así podés seguir su recorrido hasta tu puerta.
+        </div>
+      </div>
+    </div>
+     <!-- Ítem de pregunta -->
+    <div class="accordion-item">
+      <p class="accordion-header" id="headingTwo" >
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" style="background-color: #121212; color: #FF0C2C; font-weight: 600;">
+          ¿Puedo cancelar mi suscripción en cualquier momento?
+        </button>
+      </p>
+      <div id="collapseTwo" class="accordion-collapse collapse show" style="background-color: #121212; color: #ffffff; text-align: left;">
+        <div class="accordion-body">
+          Por supuesto. Podés cancelar tu suscripción cuando quieras desde tu cuenta. No hay compromisos ni penalidades. Solo tené en cuenta que si ya se procesó el pago del mes, recibirás esa última caja antes de finalizar.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /FAQS -->
+
+<!-- CONTACT FORM: Formulario de contacto -->
+<section class="section-spacing container py-8 text-center" style="background-image: url('/media/fondo01.png'); background-size: cover; background-position: center; background-repeat: no-repeat; max-width: 100%; height: auto;">
+  <h2 class="h2-custom">CONTACTO</h2>
+  <p class="p-custom">Envía un mensaje directamente desde la web.</p>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Tu nombre">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Tu email">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Tu mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark w-100">Enviar Mensaje</button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- /CONTACT FORM -->
+
+
+<!-- FOOTER: Pie de página -->
+<footer class="text-center py-4">
+  <div class="container">
+    <p class="p-custom">© 2025 Belluccia 3 - Visible Template. Todos los derechos reservados.</p>
+  </div>
+</footer>
+<!-- /FOOTER -->
+
+
+
+
+<!-- Bootstrap Bundle JS (incluye Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+<!-- Script personalizado para cambiar el navbar al hacer scroll -->
+<script>
+window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('scrolled', window.scrollY > 50);
+});
+</script>
+
+<!-- Scripts adicionales -->
+<script src="scripts.js"></script>
+</body>
+</html>
